@@ -26,7 +26,7 @@ linkwarden_hostname: ""
 # technical limitations.
 linkwarden_path_prefix: /
 
-linkwarden_container_image: "{{ linkwarden_container_image_registry_prefix }}linkwarden/linkwarden:{{ linkwarden_container_image_tag }}"
+linkwarden_container_image: "{{ linkwarden_container_image_registry_prefix }}legitservices/linkwarden:{{ linkwarden_container_image_tag }}"
 linkwarden_container_image_tag: "{{ linkwarden_version }}"
 linkwarden_container_image_registry_prefix: "{{ linkwarden_container_image_registry_prefix_upstream }}"
 linkwarden_container_image_registry_prefix_upstream: "{{ linkwarden_container_image_registry_prefix_upstream_default }}"
