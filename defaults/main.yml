@@ -30,7 +30,7 @@ linkwarden_container_image: "{{ linkwarden_container_image_registry_prefix }}leg
 linkwarden_container_image_tag: "{{ linkwarden_version }}"
 linkwarden_container_image_registry_prefix: "{{ linkwarden_container_image_registry_prefix_upstream }}"
 linkwarden_container_image_registry_prefix_upstream: "{{ linkwarden_container_image_registry_prefix_upstream_default }}"
-linkwarden_container_image_registry_prefix_upstream_default: ghcr.io/
+linkwarden_container_image_registry_prefix_upstream_default: docker.io/
 linkwarden_container_image_force_pull: "{{ linkwarden_container_image.endswith(':latest') }}"
 
 linkwarden_container_image_self_build: false
